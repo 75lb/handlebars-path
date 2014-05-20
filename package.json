@@ -1,6 +1,6 @@
 {
   "name": "handlebars-path",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Handlebars helper mappings for the node.js path module",
   "repository": "https://github.com/75lb/handlebars-path",
   "main": "lib/handlebars-path.js",
