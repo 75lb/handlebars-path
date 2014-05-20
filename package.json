@@ -1,0 +1,7 @@
+{
+  "name": "handlebars-path",
+  "version": "0.0.0",
+  "description": "node's path module in Handlebars",
+  "main": "lib/handlebars-path.js",
+  "author": "Lloyd Brookes"
+}
