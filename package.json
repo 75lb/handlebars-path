@@ -1,7 +1,8 @@
 {
   "name": "handlebars-path",
   "version": "0.0.0",
-  "description": "node's path module in Handlebars",
+  "description": "Handlebars helper mappings for the node.js path module",
+  "repository": "https://github.com/75lb/handlebars-path",
   "main": "lib/handlebars-path.js",
   "author": "Lloyd Brookes"
 }

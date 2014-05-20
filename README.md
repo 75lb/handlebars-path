@@ -4,7 +4,7 @@
 
 handlebars-path
 ===============
-Helper mappings for the node.js [path module](http://nodejs.org/api/path.html).
+Handlebars helper mappings for the node.js [path module](http://nodejs.org/api/path.html).
 
 * path-normalize
 * path-join
