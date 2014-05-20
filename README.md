@@ -4,7 +4,7 @@
 
 handlebars-path
 ===============
-Handlebars helper mappings for the node.js [path module](http://nodejs.org/api/path.html).
+Handlebars helper mappings for the node.js [path module](http://nodejs.org/api/path.html). Works server and client-side (using browserify).
 
 * path-normalize
 * path-join
@@ -12,6 +12,20 @@ Handlebars helper mappings for the node.js [path module](http://nodejs.org/api/p
 * path-relative
 * path-basename
 * path-extname
+
+##Install
+```sh
+$ npm install handlebars-path
+```
+
+##Usage
+```js
+var handlebars = require("handlebars");
+var handlebarsPath = require("handlebars-path");
+
+/* this will register the handlebars-path helpers on your handlebars instance */
+handlebarsPath(handlebars);
+```
 
 ###Examples
 For example, the template
