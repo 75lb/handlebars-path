@@ -1,6 +1,6 @@
 [![view on npm](http://img.shields.io/npm/v/handlebars-path.svg)](https://www.npmjs.org/package/handlebars-path)
 ![npm module downloads per month](http://img.shields.io/npm/dm/handlebars-path.svg)
-[![Dependency Status](https://david-dm.org/75lb/handlebars-path.png)](https://david-dm.org/75lb/handlebars-path)
+[![Dependency Status](https://david-dm.org/75lb/handlebars-path.svg)](https://david-dm.org/75lb/handlebars-path)
 
 handlebars-path
 ===============
@@ -28,7 +28,7 @@ handlebarsPath(handlebars);
 ```
 
 ###Examples
-For example, the template
+the template
 ```
 Filename: {{path-basename "parsnip.veg" ".veg"}}.txt
 ```
@@ -36,4 +36,3 @@ returns
 ```
 Filename: parsnip.txt
 ```
-etc.
