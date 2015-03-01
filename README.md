@@ -2,8 +2,7 @@
 ![npm module downloads per month](http://img.shields.io/npm/dm/handlebars-path.svg)
 [![Dependency Status](https://david-dm.org/75lb/handlebars-path.svg)](https://david-dm.org/75lb/handlebars-path)
 
-handlebars-path
-===============
+# handlebars-path
 Handlebars helper mappings for the node.js [path module](http://nodejs.org/api/path.html). Works server and client-side (using browserify).
 
 * path-normalize
@@ -13,21 +12,21 @@ Handlebars helper mappings for the node.js [path module](http://nodejs.org/api/p
 * path-basename
 * path-extname
 
-##Install
+## Install
 ```sh
 $ npm install handlebars-path
 ```
 
-##Usage
+## Usage
 ```js
 var handlebars = require("handlebars");
 var handlebarsPath = require("handlebars-path");
 
 /* this will register the handlebars-path helpers on your handlebars instance */
-handlebarsPath(handlebars);
+handlebars.registerHelper(handlebarsPath);
 ```
 
-###Examples
+### Examples
 the template
 ```
 Filename: {{path-basename "parsnip.veg" ".veg"}}.txt
